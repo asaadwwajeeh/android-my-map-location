@@ -55,7 +55,7 @@ public class FixedMyLocationOverlay extends MyLocationOverlay {
 				accuracyPaint.setAntiAlias(true);
 				accuracyPaint.setStrokeWidth(2.0f);
 				
-				drawable = mapView.getContext().getResources().getDrawable(R.drawable.ic_maps_indicator_current_position);
+				drawable = mapView.getContext().getResources().getDrawable(R.drawable.androidmarker);
 				width = drawable.getIntrinsicWidth();
 				height = drawable.getIntrinsicHeight();
 				center = new Point();
